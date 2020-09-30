@@ -1,0 +1,9 @@
+server:
+  port: 10086
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:${server.port}/eureka
+    fetch-registry: false #不允许从注册中心拉取服务列表
+    register-with-eureka: false #不允许自己注册自己
