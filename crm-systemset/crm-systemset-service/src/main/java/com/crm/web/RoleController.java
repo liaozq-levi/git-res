@@ -3,6 +3,7 @@ package com.crm.web;
 import com.crm.bean.Role;
 import com.crm.exception.CrmException;
 import com.crm.service.RoleService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/crm")
+@Api(value="角色管理",tags={"角色管理"})
 public class RoleController {
     @Autowired
     private RoleService roleService;

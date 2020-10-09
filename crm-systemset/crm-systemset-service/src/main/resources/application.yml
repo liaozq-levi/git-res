@@ -21,4 +21,6 @@ eureka:
 mybatis:
   mapper-locations: classpath:mapper/**/*Mapper.xml
 
+swagger:
+  base-package: com.crm.web
 
