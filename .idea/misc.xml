@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/crm-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/crm-systemset/pom.xml" />
         <option value="$PROJECT_DIR$/crm-common/pom.xml" />
+        <option value="$PROJECT_DIR$/crm-auth/pom.xml" />
       </list>
     </option>
   </component>

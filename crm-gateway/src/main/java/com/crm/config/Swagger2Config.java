@@ -22,7 +22,8 @@ public class Swagger2Config implements SwaggerResourcesProvider {
 
          resources.add(
                  swaggerResource("系统设置", "/api/crm-systemset/v2/api-docs", "2.0"));
-
+        resources.add(
+                 swaggerResource("登录认证", "/api/crm-auth/v2/api-docs", "2.0"));
         return resources;
     }
 

@@ -22,5 +22,5 @@ mybatis:
   mapper-locations: classpath:mapper/**/*Mapper.xml
 
 swagger:
-  base-package: com.crm.web
+  base-package: com.crm.web.controller
 
