@@ -1,0 +1,25 @@
+server:
+  port: 10085
+spring:
+  application:
+    name: crm-auth
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+
+swagger:
+  base-package: com.crm.web.controller
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
